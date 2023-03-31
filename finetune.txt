@@ -1,0 +1,8 @@
+set OPENAI_API_KEY=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
+
+openai api fine_tunes.follow -i ft-An9TcZDRKdiPy1XTFMgit9uv
+
+openai api fine_tunes.create -t E:/Projects/hackdays-explore/data_copy.jsonl -m davinci
+
+
+openai api completions.create -m davinci:ft-personal-2023-03-31-14-37-19 -p 
