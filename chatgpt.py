@@ -1,6 +1,7 @@
 #%%
 import openai
 openai.organization = "org-GOqz10RWXV4QQqNRyYQn4PaY"
+openai.api_key = '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'
 #%%
 # openai.Model.list()
 
